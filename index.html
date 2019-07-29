@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css"></link>
+    <title>breathing exercise</title>
+</head>
+<body>
+    <div class="main">
+        <div class="text-container">
+            <div class="visualiser-container">
+                <svg class="visualiser-svg" viewbox="0 0 300 300">
+                    <circle class="visualiser" r="1" cx="50%" cy="50%"/>
+                    <circle class="visualiser-outline" r="100" cx="50%" cy="50%"/>
+                </svg>
+            </div>
+            <div class="countdown-container">
+                <h3 class="countdown-display">00:00</h3>
+                <button data-time="300" class="start-btn">BEGIN</button>
+            </div>
+            <div class="prompt-container">
+                <p class="prompt-display">Get into a comfortable position.</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
