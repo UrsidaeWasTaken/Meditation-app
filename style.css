@@ -69,7 +69,7 @@
 }
 
 .start-btn:hover {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 svg {
@@ -82,7 +82,7 @@ svg {
 
 .visualiser {
     transform-origin: 50% 50%;
-    opacity: 0.4;
+    opacity: 0.3;
     fill: #fff;
 }
 

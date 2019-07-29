@@ -7,9 +7,7 @@ const promptCountdownDisplay = document.querySelectorAll(".prompt-container, .co
 const start = document.querySelector(".start-btn");
 const visualiserContainer = document.querySelector(".visualiser-container");
 const visualiserSVG = document.querySelector(".visualiser");
-clear(visualiserContainer)
-clear(countdownDisplay);
-clear(promptContainer);
+promptCountdownDisplay.forEach(elem => clear(elem))
 
 start.addEventListener('click', async () => {
     await fadeOut(start);
